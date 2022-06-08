@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(-5deg, #283048a8, #859398dc);
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 0.2rem 0.2rem 0.9rem rgb(255, 255, 255);
+  margin-bottom: 5rem;
+}
+h2{
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin: 1rem;
+  text-shadow: 0.1rem 0.1rem 0.3rem rgb(255, 255, 255);
+}
+p{
+  font-size: 1.1rem;
+  margin: 1rem;
+  border: 0.1rem solid black;
+  padding: 1rem;
+  background: linear-gradient(-22deg, #7a7a7ac7, #bbbbbbd0);
+  border-radius: 0.5rem;
+}
+table {
+  margin: 1rem;
+  border-collapse: collapse;
+}
+th{
+  border: 0.2rem solid black;
+}
+td {
+  border: 0.1rem solid black;
+  padding: 1rem;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+.elements,
+.attributs,
+.fonctions {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+.elements {
+  width: 10%;
+}
+.attributs {
+  width: 35%;
+}
+.fonctions {
+  width: 55%;
+}
+.rouge {
+  color: rgb(117, 0, 0);
+  text-align: center;
+}
+.upper {
+  text-transform: uppercase;
+}
+.bolder{
+  font-weight: bolder;
+}
+.violet {
+  color: black;
+  font-size: 1.1rem;
+}
+/***************** Bouton retour *****************/
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster Two", cursive;
+  font-size: 1.2rem;
+  font-weight: bolder;
+ }
+
+.btn a:hover {
+  color: white;
+  transform: scale(1.1, 1.1);
+  background-color: grey;
+  box-shadow: inset 0.2rem 0.2rem 0.2rem rgb(77, 77, 77);
+}
+.btn > a {
+  display: inline-block;
+  width: 10%;
+  margin-top: 5%;
+  padding: 0.5rem;
+  text-align: center;
+  border: 0.1rem solid seashell;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.4s ease;
+  text-decoration: none;
+  color: black;
+}
+/****************** Footer ****************/
+footer {
+  margin-top: 5rem;
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

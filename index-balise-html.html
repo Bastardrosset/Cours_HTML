@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+      <head>
+            <title>Tableau liste des éléments balises et attributs ainsi que leurs fonctions</title>
+            <meta charset= "utf-8">
+            <link rel= "stylesheet"  href="style-balise-html.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      </head>
+         
+         <body>
+            <h1>Tableau des balises <span>html</span> et attributs</h1>
+               <h2>Présentation :</h2>
+                  <p> Le HyperText Markup Language, généralement abrégé      <span class="upper">html</span> ou dans sa dernière version  <span class="upper">html5</span>, est le langage de balisage conçu pour représenter les pages web. Créé en 1991 c'est un langage qui permet de définir les différents contenus et de créer la structure d’une page.  L’anglais Hypertext Markup Language se traduit littéralement en langage de balisage d’hypertexte1. On utilise généralement le sigle  <span class="upper">html</span>, parfois même en répétant le mot « langage » comme dans « langage  <span class="upper">html</span> ». Hypertext est parfois écrit HyperText pour marquer le T du sigle  <span class="upper">html</span>.<br><span class="bolder">Origine</span> :<br> 
+                  <span class="upper">html</span> est une des trois inventions à la base du World Wide Web, avec le Hypertext Transfer Protocol (HTTP) et les adresses web (URL).  <span class="upper">html</span> a été inventé pour permettre d'écrire des documents hypertextuels liant les différentes ressources d’Internet avec des hyperliens. Aujourd’hui, ces documents sont appelés « page web ».
+                  <br>Le public non averti parle parfois de HTM au lieu de  <span class="upper">html</span>, HTM étant l’extension de nom de fichier tronquée à trois lettres, une limitation que l’on trouve sur d’anciens systèmes d’exploitation de Microsoft.
+                  </p>
+               <h2>Syntaxe <span class="bolder">html</span> :</h2>               
+                  <table>
+                     <thead>
+                        <tr>
+                           <th class="elements">elements balises</th>
+                           <th class="fonctions">fonctions</th>
+                        </tr>
+                     </thead>   
+                                                     
+                     <tbody>
+                        <tr>
+                           <td class="rouge">&lt;!DOCTYPE&gt;</td>
+                           <td>Sert à indiquer le type de document.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;html&gt;</td>
+                           <td>Balise d'entête dans laquelle l'ensemble du code va être contenu.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;!--.........--&gt;</td>
+                           <td>Permet d'ajouter un commentaire dans un code de page html.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;head&gt;</td>
+                           <td>Elément d’en-tête va contenir des éléments qui vont servir à fournir des informations sur la page au navigateur, comme le titre de la page ou encore le type d’encodage.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;meta&gt;</td>
+                           <td>Sert lui à transmettre des metas informations sur la page au navigateur. Le type d’information transmis va dépendre de l’attribut que l’on va préciser et le type d’encodage utilisé dans nos pages. Cela va permettre aux navigateurs d’afficher correctement nos différents textes. Pour faire cela, nous allons utiliser l’attribut charset pour « characters set » c’est-à-dire « ensemble de caractères » de l’élément meta et lui fournir la valeur <span class="rouge">utf-8</span></td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;link="...."&gt;</td>
+                           <td>Placer dans l'élément head, les links seront lu et appliqués dans notre page ou fichier. Les attributs <span class="rouge">rel</span> et <span class="rouge">href</span> vont être utilisés dans cette balise.<span class="css">css </span>.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;title&gt;</td>
+                           <td>L’élément title va nous permettre d’indiquer le titre de la page.Il ne doit pas être confondu avec les différents textes définis comme des titres dans la page. Ce titre de page est le texte visible sur le haut des onglets de votre navigateur.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;body&gt;</td>
+                           <td>Le body va contenir l'ensemble des éléments visible de la page.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;h1&gt;</td>
+                           <td>C'est le titre principal de la page. Il ne peut y en avoir qu'un par page.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;p&gt;</td>
+                           <td>On peut créer autant de paragraphes que l’on souhaite dans une page. A chaque nouveau paragraphe, il faut utiliser un nouvel élément <span class="rouge">p</span>. On peu lui attribuer différentes class afin de le cibler précisement.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;br&gt;</td>
+                           <td>Est utilisé pour les retour à la ligne. C'est une Balise orpheline.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;hr&gt;</td>
+                           <td>Est utilisé pour un retour à la ligne avec en plus une ligne séparatice. C'est une Balise orpheline.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;pre&gt;</td>
+                           <td>L’élément pre sert à préformater un texte. Cela signifie que tout le contenu qui se trouve à l’intérieur de cet élément va conserver la mise en forme que nous allons lui donner lors du rendu fait par le navigateur. </td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;strong&gt;</td>
+                           <td>Element qui sert à definir une partie très importante dans un texte et sera considéré par les moteurs de recherche. Resultat visuel en caractère gras.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;em&gt;</td>
+                           <td>Element qui sert à définir une partie importante dans un texte. Considéré par les moteurs de recherches. Résultat visuel en italic. </td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;mark&gt;</td>
+                           <td>Element qui sert a surligner la partie qui est a l'interieur.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;ul&gt;</td>
+                           <td>Element de liste non ordonnée par des puces  qui va contenir d'autres éléments de balisage..</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;ol&gt;</td>
+                           <td>Element de liste ordonnée par des chiffres.Balisage dans lequel on va pouvoir imbriquer d'autres éléments de balisage. Les attributs start ou value peuvent lui être ajouté ainsi que reversed. Un style de <span class="rouge">type=</span> A, I peu lui être attribué afin définir le type de numérotation.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;li&gt;</td>
+                           <td>Element de liste ordonnée.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;a&gt;</td>
+                           <td>Va être utilisé afin d'insérer un lien hypertext avec l'attribut "<span class="rouge">href</span>". L'attribut target qui permet de cibler où doit s’ouvrir notre page de destination. La valeur <span class="rouge">_blank</span>> va spécifier que la nouvelle page doit s’ouvrir dans un nouvel onglet. On peu également lui attributer des éléments d' id ou de class afin de cible précisement cette balise et la mettre en forme en <span class="upper">css </span>. <br>L'attribut <span class="rouge">mailto</span> servira afin d'inserer un lien pour pouvoir envoyer un email.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;div&gt;</td>
+                           <td>Balisage et élément de type block.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;span&gt;</td>
+                           <td>Va être utilisé afin de selectionner une partie précise du texte pour pouvoir lui appliquer un style <span class="upper">css </span>particulier. Elément de type inline.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;table&gt;</td>
+                           <td>Balisage qui va définir un tableau. Contiendra les attributs "<span class="rouge">th</span>", "<span class="rouge">tr</span>" et "<span class="rouge">td</span>" qui permettent de définir les colonnes et les lignes.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;caption&gt;</td>
+                           <td>Afin d'ajouter une legende (ou titre) à un tableau, cette balise doit être placé après un &lt;<span class="rouge">table</span>&gt;. <span class="rouge">Caption-side</span> en <span class="upper">css</span> pour déterminer ou va se situer la legende.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;tr&gt;</td>
+                           <td>Va permettre d’ajouter des lignes dans un tableau.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;td&gt;</td>
+                           <td>Va permettre d'ajouter des colonnes à un tableau.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;th&gt;</td>
+                           <td>Pour créer une ligne d’en-tête d'un tableau. Dans un tableau complexe, '<span class="rouge">scope=</span>"<span class="rouge">col</span>" ' défini un sens de lecture vertical et '<span class="rouge">scope=</span>"<span class="rouge">row</span>" ' un sens de lecture horizontal.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;thead&gt;</td>
+                           <td>Balisage qui va définir l'entête d'un tableau.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;tbody&gt;</td>
+                           <td>Balisage qui va définir le corps d'un tableau.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;tfoot&gt;</td>
+                           <td>Balisage qui va définir le pied d'un tableau.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;col&gt; et &lt;colgroup&gt;</td>
+                           <td>Dans un tableau complexe, balisage qui  permettera de definir le nombre de colonnes ou lignes à regrouper.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;img.&gt;</td>
+                           <td>Va permettre d'insérer une image dans une page. Suivis de l'attribut '<span class="rouge">src=</span>"..." ' pour indiquer le chemin à cette balise et de Alt="décrire l'image" servira à décrire l'image. Les éléments figure et figcaption en <span class="upper">css</span> vont permettre d'afficher le commentaire en dessous  pour les non voyants ou autres.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;svg&gt;</td>
+                           <td>Va permettre d'insérer une image vectorielle ou dessin. <a class="violet" href="https://developer.mozilla.org/fr/docs/Web/SVG/Attribute" target="_blank">Lien</a> vers les contenus autorisés.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;video controls&gt;</td>
+                           <td>Inclut les éléments universels comme '<span class="rouge">src=</span>"..." ' ou encore '<span class="rouge">autoplay=</span>"false" '. <a class="violet" href="https://developer.mozilla.org/fr/docs/Web/SVG/Attribute" target="_blank">Lien</a> vers la documentation d'intégration de contenu vidéo.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;audio controls&gt;</td>
+                           <td>Va permettre d'insérer de l'audio dans la page. <br>&lt;audio controls<br> '<span class="rouge">src=</span>"....." '' pour indiquer le chemin à cette balise et '<span class="rouge">type=</span>"....." ' qui va permettre d'indiquer au navigateur le codec audio utilisé dans notre fichier ( ex: audio/mpeg ).<br>&lt;/audio&gt;</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;form&gt;</td>
+                           <td>Balise qui contient la sémantique nécessaire à la construction d'un formulaire. L' attributs ' <span class="rouge">action=</span>" ' traîte l'envoie du formulaire" ' et ' <span class="rouge">method</span>"méthode utilisée pour envoyer les données au serveur" '.<a class="violet" href="https://developer.mozilla.org/fr/docs/Learn/Forms/How_to_structure_a_web_form" target="_blank">Lien</a> vers la documentation de structure d'un formulaire.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;fieldset&gt;</td>
+                           <td>Regroupe l'ensemble des champs nécessaires à la création de formulaires. L'attribut ' role="group" ' permet la même chose</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;label&gt;</td>
+                           <td>Balise orpheline utilisé pour définir une zone de texte suivis d'un <span class="rouge">for=</span>"information identique à celle de l'input" ' '<span class="rouge">aria-labelledby=</span>" assistance qui décrit la nature de l'objet" '. Le label doit toujours être liée à un champ "<span class="rouge">input</span>"</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;input&gt;</td>
+                           <td>Est utilisé pour créer un contrôle interactif dans un formulaire, dépend de la valeur indiquée dans son attribut '<span class="rouge">type=</span>"button"' ou '<span class="rouge">type=</span>"submit"',  '<span class="rouge">onclick=</span>"alert('alert')"' permet de tester si le bouton fonctionne et '<span class="rouge">value=</span>"envoyer"'. <a class="violet" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input" target="_blank"> Lien </a>vers la documentation de structure d'un bouton.</td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;textarea&gt;</td>
+                           <td>Permet d'éditer un texte sur plusieurs lignes dans un formulaire. </td>
+                        </tr>
+                        <tr>
+                           <td class="rouge">&lt;footer&gt;</td>
+                           <td>Défini une boite pour un bas de page.</td>
+                        </tr>
+                                          
+                     </tbody> 
+
+                  </table>
+                     <div class="btn">
+                        <a href="/Hobbies/Dev-Web/index-Dev-Web.html">Retour aux hobbies</a>
+                     </div>
+               <footer>
+                     <Span><i class="fas fa-copyright"></i> 2021 - Xavier Bastard-Rosset -</Span>
+               </footer>
+         </body>
+</html>
